@@ -1,10 +1,10 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-azul: #1eff00;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: #1da510;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("img/NEY10.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 350vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
